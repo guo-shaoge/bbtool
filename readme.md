@@ -6,6 +6,7 @@
 
 1. 将单个视频链接放入 seeds.txt
 2. 运行脚本 `./all_collections_v1.py --seeds ./downloads/eng/seeds.txt  --bbdown-args --work-dir ./downloads/eng --skip-cover --show-all`
+   只下载音频: `./all_collections_v1.py --seeds ./downloads/eng/seeds.txt  --bbdown-args --work-dir ./downloads/eng --skip-cover --show-all --audio-only`
 
 v2 版本示例:
 ```
