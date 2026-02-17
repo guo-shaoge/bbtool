@@ -5,7 +5,7 @@
 想根据一个视频链接下载该视频所在的合集里面的所有视频
 
 1. 将单个视频链接放入 seeds.txt
-2. 运行脚本 `./all_collections_v1.py --seeds ./downloads/eng/seeds.txt  --bbdown-args --work-dir ./downloads/eng`
+2. 运行脚本 `./all_collections_v1.py --seeds ./downloads/eng/seeds.txt  --bbdown-args --work-dir ./downloads/eng --skip-cover --show-all`
 
 v2 版本示例:
 ```
@@ -14,13 +14,13 @@ v2 版本示例:
   --seeds ./downloads/eng/seeds.txt \
   --after 2026-01-01 \
   --dry-run \
-  --bbdown-args --work-dir ./downloads/eng
+  --bbdown-args --work-dir ./downloads/eng --skip-cover --show-all
 
 ./bbdown_all_collections.py \
   --bbdown ./BBDown \
   --seeds ./downloads/eng/seeds.txt \
   --after 2026-01-01 \
-  --bbdown-args --work-dir ./downloads/eng
+  --bbdown-args --work-dir ./downloads/eng --skip-cover --show-all
 ```
 
 # BBDown
